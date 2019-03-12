@@ -48,7 +48,7 @@ public class DayView: UIView {
     }
   }
 
-  let dayHeaderView = DayHeaderView()
+  public let dayHeaderView = DayHeaderView()
   let timelinePagerView = TimelinePagerView()
 
   public var state: DayViewState? {
