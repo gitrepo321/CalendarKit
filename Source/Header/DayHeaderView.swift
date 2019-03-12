@@ -96,7 +96,7 @@ public class DayHeaderView: UIView {
 }
 
 extension DayHeaderView: DaySelectorDelegate {
-  func dateSelectorDidSelectDate(_ date: Date) {
+ public func dateSelectorDidSelectDate(_ date: Date) {
     state?.move(to: date)
   }
 }
